@@ -37,7 +37,7 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/static/favicon.ico`,
             sizes: `192x192`,
             type: `image/png`,
           },
