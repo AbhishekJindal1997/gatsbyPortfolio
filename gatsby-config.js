@@ -6,10 +6,12 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    siteDescription: ` Abhishek Jindal.  Full Stack Developer. Junior web Developer. 
+    Hard Wordking. Front end development . Back-end development. MySQL, REACT.JS, MERN stack developer. 
+    Loves to create out of the box ui/ux . Looking for a job in full stack development , Recently graduated`,
     siteTitleAlt: `Aj Portfolio`,
+    siteLanguage: `en`,
+    siteUrl: `https://abhishekjindal.me`,
   },
   plugins: [
     {
